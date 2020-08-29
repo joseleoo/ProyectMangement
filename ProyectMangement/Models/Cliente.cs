@@ -13,5 +13,7 @@ namespace ProyectMangement.Models
         public Proyecto Proyecto { get; set; }
         public int ProyectoId { get; set; }
 
+        
+
     }
 }

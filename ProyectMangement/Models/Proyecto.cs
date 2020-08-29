@@ -10,8 +10,7 @@ namespace ProyectMangement.Models
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFinal { get; set; }
         public double Precio { get; set; }
-        public List<Lenguaje_Nivel> Lenguaje_Nivel { get; set; }        
-        public Lenguaje Lenguaje { get; set; }
-        public int LenguajeId { get; set; }
+        public Lenguaje_Nivel Lenguaje_Nivel { get; set; }        
+        public int Lenguaje_NivelId { get; set; }
     }
 }
